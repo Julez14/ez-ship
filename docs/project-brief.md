@@ -1,53 +1,53 @@
-# PROJECT BRIEF (Riipen / Student Developers)
+# PROJECT BRIEF
 
-## MVP: Uber-Style Storage Platform Using Convenience Stores as Micro-Warehouses
+## MVP: Last-Mile Delivery & Storage Platform Using Convenience Stores
 
 ## 1. Project Title
 
-**"On-Demand Storage & Last-Mile Pickup Platform (Uber for Storage)"**
+**"E-Z Ship: On-Demand Storage & Last-Mile Delivery Platform"**
 
 ---
 
-## 2. Project Description (Clear, Sharable Summary)
+## 2. Project Description
 
-We are developing the MVP of a **new logistics platform that works like Uber, but for temporary storage**.
+We are developing the **Minimum Viable Product (MVP)** of a **last-mile delivery and logistics platform** that enables temporary storage at convenience stores.
 
 **How it works:**
 
-- **Individuals and small businesses** drop off items at **nearby convenience stores**, which act as **micro-warehouses**.
-- Stores check in and hold the items for a short time (hours or days).
-- **Last-mile delivery companies** (Uber-style couriers, local delivery services) pick up stored items and deliver them to final destinations.
+- **Customers** book storage and drop off items at **participating convenience stores**, which act as **temporary storage locations**.
+- Store partners check in and hold items securely.
+- **Drivers** pick up stored items and deliver them to final destinations.
 
-The MVP will demonstrate the core flow:  
-**Booking → Drop-off at store → Storage → Pickup by last-mile partner → Delivery confirmation**
+The MVP demonstrates the core workflow:  
+**Booking → Drop-off at store → Storage → Pickup by driver → Delivery confirmation**
 
-This student-built MVP will support real-world pilot testing.
+This MVP supports validation of the business concept and early stakeholder discussions.
 
 ---
 
 ## 3. MVP Objectives
 
-Students will build a web application that allows:
+Build a web application that demonstrates:
 
 **For Customers:**
 
-- Search for nearby convenience stores
-- Book storage time
-- Drop off items
-- Get notifications when the item is picked up or delivered
+- Search for participating convenience stores by postal code
+- Book storage time with item details
+- Track shipment status through delivery
+- View notifications for status changes
 
-**For Convenience Stores:**
+**For Store Partners:**
 
-- Log in as a partner
-- Check in items (size, photo, timestamp)
-- Store items in inventory
-- Handover items to delivery couriers
-- Track status changes
+- Partner dashboard with role-based access
+- Check in items with photo verification
+- Manage inventory and storage visibility
+- Mark items ready for pickup
 
-**For Last-Mile Delivery Partners:**
+**For Drivers:**
 
-- Accept pickup tasks
-- Mark pickups and deliveries as complete
+- View and accept delivery tasks
+- Upload photos for pickup and delivery
+- Track task completion
 - Upload proof-of-delivery (photo/signature)
 
 **For the Admin (You):**

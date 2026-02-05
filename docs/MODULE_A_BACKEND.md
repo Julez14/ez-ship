@@ -9,7 +9,7 @@
 
 ## Overview
 
-You own the entire backend platform: API, database, file storage, and business logic. Modules B and C (frontend Next.js apps) depend on your API contract, so delivering stable endpoints early is critical.
+You own the entire backend platform: API, database, file storage, and business logic. This module serves as the foundation for the MVP, enabling multi-role access, shipment tracking, and data capture. Modules B and C (frontend Next.js apps) depend on your API contract, so delivering stable endpoints early is critical.
 
 **Core Responsibilities:**
 

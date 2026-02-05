@@ -1,12 +1,12 @@
-# EZ-Ship Architecture Overview (POC)
+# EZ-Ship Architecture Overview (MVP)
 
 ## Vision
 
-POC for an on-demand storage platform using convenience stores as micro-warehouses with courier-based delivery.
+MVP for a last-mile delivery and storage platform using convenience stores as micro-warehouses with driver-based delivery. This demonstrates core business workflow, multi-role access, and shipment tracking.
 
 ## Core Flow
 
-`Customer Books Storage` → `Store Checks In Item + Photo` → `Store Marks Ready` → `Courier Accepts + Picks Up + Photo` → `Courier Delivers + Photo`
+`Customer Books Storage` → `Store Partner Checks In Item + Photo` → `Store Marks Ready` → `Driver Accepts + Picks Up + Photo` → `Driver Delivers + Photo`
 
 ---
 

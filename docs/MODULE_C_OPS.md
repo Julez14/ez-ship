@@ -1,4 +1,4 @@
-# Module C: Operations Experience (Store + Courier + Admin)
+# Module C: Operations Experience (Store Partners + Drivers + Admin)
 
 **Owner:** Developer 3  
 **Tech Stack:** Next.js 14 (App Router), TypeScript, TailwindCSS, Clerk  
@@ -9,13 +9,13 @@
 
 ## Overview
 
-You own all operational interfaces: store dashboard, courier dashboard, and admin panel. This module handles photo uploads, approval workflows, task management, and data exports. Your work shares the same Next.js app as Module B but uses separate route groups, ensuring no conflicts.
+You own all operational interfaces: store partner dashboard, driver dashboard, and admin panel. This module handles photo uploads, approval workflows, task management, and data exports. Your work shares the same Next.js app as Module B but uses separate route groups, ensuring no conflicts.
 
 **Core Responsibilities:**
 
-- **Store Dashboard:** Inventory management, check-in items with photo upload, mark ready for pickup
-- **Courier Dashboard:** View available tasks, accept pickups, upload pickup/delivery photos
-- **Admin Panel:** Approve stores/couriers, manage pricing rules, export data, promote admins
+- **Store Partner Dashboard:** Inventory management, check-in items with photo upload, mark ready for pickup
+- **Driver Dashboard:** View available tasks, accept pickups, upload pickup/delivery photos
+- **Admin Panel:** Approve stores/drivers, manage system settings, export data, promote admins
 
 ---
 

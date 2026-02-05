@@ -9,7 +9,7 @@
 
 ## Overview
 
-You own the customer-facing web application: finding stores, creating bookings, tracking item status, and viewing notifications. Your work is independent of Module C (Ops UI) but depends on Module A's API being deployed.
+You own the customer-facing web application: finding stores, creating bookings, tracking shipment status, and viewing notifications. This module demonstrates the customer journey from booking through delivery, supporting the MVP's goal of validating the end-to-end workflow. Your work is independent of Module C (Ops UI) but depends on Module A's API being deployed.
 
 **Core Responsibilities:**
 
