@@ -9,7 +9,9 @@
 
 ## Overview
 
-You own the customer-facing web application: finding stores, creating bookings, tracking shipment status, and viewing notifications. This module demonstrates the customer journey from booking through delivery, supporting the MVP's goal of validating the end-to-end workflow. Your work is independent of Module C (Ops UI) but depends on Module A's API being deployed.
+You own the customer-facing web application: finding stores, creating bookings, tracking shipment status, and viewing notifications. This module demonstrates the customer journey from booking through delivery, supporting the MVP's goal of validating the end-to-end workflow.
+
+**Demonstration Focus:** This interface must support stable, uninterrupted live demos. The customer experience should clearly show item registration, store selection, and delivery tracking without requiring explanations of missing functionality. Your work is independent of Module C (Ops UI) but depends on Module A's API being deployed.
 
 **Core Responsibilities:**
 

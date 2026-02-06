@@ -2,11 +2,13 @@
 
 ## Vision
 
-MVP for a last-mile delivery and storage platform using convenience stores as micro-warehouses with driver-based delivery. This demonstrates core business workflow, multi-role access, and shipment tracking.
+MVP for a last-mile delivery and storage platform using convenience stores as micro-warehouses with driver-based delivery. **This MVP must be demonstration-ready for live partner conversations**, clearly showing the end-to-end workflow without requiring hypothetical explanations. The system demonstrates core business workflow, multi-role access, and shipment tracking with stable, uninterrupted demos.
 
 ## Core Flow
 
 `Customer Books Storage` → `Store Partner Checks In Item + Photo` → `Store Marks Ready` → `Driver Accepts + Picks Up + Photo` → `Driver Delivers + Photo`
+
+**Critical:** All handoffs between roles must be visible within the system through status changes or interface updates. The full lifecycle must be demonstrable without manual intervention or developer fixes.
 
 ---
 

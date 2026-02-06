@@ -11,6 +11,8 @@
 
 You own the entire backend platform: API, database, file storage, and business logic. This module serves as the foundation for the MVP, enabling multi-role access, shipment tracking, and data capture. Modules B and C (frontend Next.js apps) depend on your API contract, so delivering stable endpoints early is critical.
 
+**Acceptable Simulations for MVP:** Simulated payments, simulated driver availability, manual status changes, hardcoded routes, and mock notifications are explicitly acceptable. The focus is on realistic user experience for demonstrations, not production-grade automation.
+
 **Core Responsibilities:**
 
 - REST API with JWT authentication
@@ -50,7 +52,7 @@ You own the entire backend platform: API, database, file storage, and business l
 ### 4. Initialize Database
 
 - [ ] Run D1 migrations locally and in production
-- [ ] Seed mock data for testing
+- [ ] Seed comprehensive demo data for stable live demonstrations (test accounts for all roles, sample stores, sample bookings at various stages)
 
 ---
 
@@ -163,14 +165,14 @@ packages/api/
 
 ## Success Criteria
 
-- [ ] All API endpoints from API_CONTRACT.md implemented
-- [ ] Database schema fully migrated
-- [ ] R2 upload/download working
-- [ ] State machine validates transitions
-- [ ] Role-based access enforced
-- [ ] Pricing calculation accurate
+- [ ] All API endpoints support end-to-end workflow demonstration
+- [ ] Database schema fully migrated with comprehensive demo data
+- [ ] R2 upload/download working for photo verification
+- [ ] State machine validates transitions and all handoffs are visible
+- [ ] Role-based access enforced for all user types
 - [ ] Admin approval flows functional
-- [ ] Notifications created for key events
-- [ ] API deployed to staging
+- [ ] Notifications created for key status changes
+- [ ] API deployed and stable for live demonstrations
 - [ ] Shared types package published
+- [ ] System supports uninterrupted demos without manual intervention
 - [ ] Frontend teams can authenticate and make requests

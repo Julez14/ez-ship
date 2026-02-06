@@ -9,13 +9,14 @@
 
 ## Overview
 
-You own all operational interfaces: store partner dashboard, driver dashboard, and admin panel. This module handles photo uploads, approval workflows, task management, and data exports. Your work shares the same Next.js app as Module B but uses separate route groups, ensuring no conflicts.
+You own all operational interfaces: store partner dashboard, driver dashboard, and admin panel.
+
+**Store Partner Experience Priority:** Because decentralized storage is central to the E-Z Ship model, the store partner interface is **critically important**. It must be exceptionally clear and intuitive - simple enough to explain to a store owner in under two minutes during a live demo. Store partners must be able to: sign in, declare available storage space (square footage), view items currently in storage, and see when items are picked up. This module handles photo uploads, approval workflows, task management, and data exports. Your work shares the same Next.js app as Module B but uses separate route groups, ensuring no conflicts.
 
 **Core Responsibilities:**
 
-- **Store Partner Dashboard:** Inventory management, check-in items with photo upload, mark ready for pickup
-- **Driver Dashboard:** View available tasks, accept pickups, upload pickup/delivery photos
-- **Admin Panel:** Approve stores/drivers, manage system settings, export data, promote admins
+- **Store Partner Dashboard (HIGH PRIORITY):** Declare available storage space (square footage), inventory visibility, check-in items with photo upload, mark ready for pickup, see pickup confirmations
+- **Driver Dashboard:** View available tasks with location context, accept pickups, upload pickup/delivery photos, delivery status updates
 
 ---
 

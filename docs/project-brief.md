@@ -23,6 +23,8 @@ The MVP demonstrates the core workflow:
 
 This MVP supports validation of the business concept and early stakeholder discussions.
 
+**Demonstration Readiness:** The MVP must be strong enough for live conversations with potential partners, including convenience store owners, drivers, and logistics stakeholders. It should support clear, uninterrupted demonstrations without requiring hypothetical explanations or verbal walkthroughs of missing functionality.
+
 ---
 
 ## 3. MVP Objectives
@@ -36,12 +38,14 @@ Build a web application that demonstrates:
 - Track shipment status through delivery
 - View notifications for status changes
 
-**For Store Partners:**
+**For Store Partners (HIGH PRIORITY - Central to Business Model):**
 
-- Partner dashboard with role-based access
+- Exceptionally clear and intuitive partner dashboard
+- Declare available storage space in square footage
+- View items currently in storage
 - Check in items with photo verification
-- Manage inventory and storage visibility
-- Mark items ready for pickup
+- See when items are picked up or removed
+- Simple enough to explain to store owners in under 2 minutes
 
 **For Drivers:**
 
